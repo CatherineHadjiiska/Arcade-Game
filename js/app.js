@@ -74,6 +74,22 @@ Enemy.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
+var Player = function(x, y) {
+    this.image = 'images/char-boy.png';
+    this.x = x;
+    this.y = y;
+    this.height = 85;
+    this.width = 50;
+};
+
+
+Player.prototype.update = function(dt) {
+    return this.y;
+};
+
+Player.prototype.render = function() {
+    ctx.drawImage(Resources.get(this.image), this.x, this.y);
+};
 
 
 // Now instantiate your objects.
