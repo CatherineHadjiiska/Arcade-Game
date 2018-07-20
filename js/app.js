@@ -30,6 +30,14 @@ function gameWon() {
 
 }
 
+// Randomise Speed
+function speedRandom(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
+
 // Enemies our player must avoid
 var Enemy = function() {
     // Variables applied to each of our instances go here,
