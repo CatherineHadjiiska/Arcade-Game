@@ -121,10 +121,17 @@ Player.prototype.handleInput = function(keyCode) {
 
 
 // Now instantiate your objects.
+var bug1 = new Enemy(0, 50);
+var bug2 = new Enemy(-100, 50);
+var bug3 = new Enemy(-150, 135);
+// var enemy_lineTwo_2   = new Enemy(-200, 145, 3);
+var bug4 = new Enemy(-300, 220);
+var bug5 = new Enemy(-400, 220);
 // Place all enemy objects in an array called allEnemies
+// Array for all enemies/bugs
+const allEnemies = [bug1, bug2, bug3, bug4, bug5];
 // Place the player object in a variable called player
-
-
+const player = new Player(200, 390);
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
