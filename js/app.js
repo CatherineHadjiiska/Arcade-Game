@@ -1,3 +1,35 @@
+et modal = document.querySelector(".start-game");
+let overlay = document.querySelector(".overlay");
+let gameover = document.querySelector(".game-over");
+let winnerModal = document.querySelector(".winner");
+
+
+// start Game
+function startGame(){
+    modal.classList.add("hide");
+    overlay.classList.add("hide");
+}
+
+
+// to run when player loses all lives
+function gameOver() {
+    overlay.classList.add("show");
+    gameover.classList.add("show");
+}
+
+//reset game
+function resetGame() {
+
+    window.location.reload(true);
+}
+
+// when player gets to water and wins game
+function gameWon() {
+    overlay.classList.add("show");
+    winnerModal.classList.add("show");
+
+}
+
 // Enemies our player must avoid
 var Enemy = function() {
     // Variables applied to each of our instances go here,
