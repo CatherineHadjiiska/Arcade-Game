@@ -1,11 +1,11 @@
-et modal = document.querySelector(".start-game");
+let modal = document.querySelector(".start-game");
 let overlay = document.querySelector(".overlay");
 let gameover = document.querySelector(".game-over");
 let winnerModal = document.querySelector(".winner");
 
 
 // start Game
-function startGame(){
+function startGame() {
     modal.classList.add("hide");
     overlay.classList.add("hide");
 }
