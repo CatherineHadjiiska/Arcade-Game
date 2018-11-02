@@ -1,5 +1,7 @@
 # Front-End Arcade Game 
 
+[Live Preview](https://catherinehadjiiska.github.io/memory-game/)
+
 # How to Play:
 Take your player to the water before losing all three lives. Your enemies look like small bugs but every collision with one of them will take away one of your lives and bring you back to the initial position.
 
