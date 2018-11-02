@@ -1,6 +1,6 @@
 # Front-End Arcade Game 
 
-[Live Preview](https://catherinehadjiiska.github.io/memory-game/)
+[Live Preview](https://catherinehadjiiska.github.io/Arcade-Game/)
 
 # How to Play:
 Take your player to the water before losing all three lives. Your enemies look like small bugs but every collision with one of them will take away one of your lives and bring you back to the initial position.
@@ -15,6 +15,5 @@ Controls
 # How to Download the Game
 
 Click the "Clone or download" button and then download the Zip file. There you'll find all required to run the game - images, engine, etc.
-
 # Upcoming updates
 Choose your character when starting the game.
